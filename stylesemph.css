@@ -1,0 +1,98 @@
+
+/**************  pricing start ***********/
+
+.s1:hover {
+  background-color: rgb(244, 64, 64);
+}
+
+/* .pricing{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    position: relative;
+  }
+  
+  .pricing:before{
+    content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background:  linear-gradient(160deg, #16c9f6 55%,  #fff 0%) ;
+  } */
+  
+  /* .money{
+    font-size: 40px;
+      line-height: 1;
+      color: #606060;
+  }
+   */
+  .card{
+    transition: 0.4s ease;
+    /*border-radius: 20%!important;*/
+    background-color: rgb(247, 201, 131);
+  }
+  
+  .card-header{
+    font-size: 1.6rem;
+    font-weight: bold;
+    background: rgb(246, 88, 88)!important;
+    padding: 25px 0!important;
+  }
+  
+  .card-body{
+    padding: 30px 0!important;
+    color: rgb(16, 16, 16);
+    text-align: center; 
+  }
+  
+  .card-body li{
+    margin: 10px 0;
+    font-weight: 400;
+      font-size: 15px;
+      line-height: 1.6;
+      color: #4f3499;
+  }
+  
+  .card-footer{
+    background: rgb(246, 241, 241)!important;
+    padding: 30px 0px!important;
+  }
+  
+  .card-footer a{
+    border: 1px solid #50d1c0;
+      border-radius: 100px;
+      color: #50d1c0;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 13px 30px;
+      background: transparent;
+      text-decoration: none;
+  }
+  
+  
+  .card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(241, 175, 175, 0.1);
+  }
+  
+  .card:hover .card-header, .card:hover .money{
+    color: #50d1c0;
+  }
+  
+  .card:hover a{
+    background: #0c0c0c;
+    color: rgb(240, 204, 204);
+    box-shadow: 0 0 20px 0 rgba(233, 151, 151, 0.3);
+  }
+  
+  .card-second{
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(210, 132, 132, 0.2);
+  }
+
+  /**************** pricing end ************/

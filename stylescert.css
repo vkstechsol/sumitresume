@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 10px 0 0;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.certificates-section {
+    text-align: center;
+}
+
+.certificate {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.certificate img {
+    width: 20%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.certificate h3 {
+    margin: 15px 0 10px;
+    color: #333;
+}
+
+.certificate-description {
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #444;
+    color: #fff;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* Your existing styles go here */
+
+/* Additional styles for Skills section */
+.skills-section {
+    text-align: center;
+}
+
+.skill {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.add-skill {
+    margin-top: 20px;
+}
+
+.add-skill input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.add-skill button {
+    padding: 5px 10px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-skill button:hover {
+    background-color: #27ae60;
+}
+
+
+/* Your existing styles go here */
+
+/* Additional styles for Slider section */
+.slider-section {
+    text-align: center;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,282 @@
+
+ body{
+  background-color: #262525;
+ }
+ 
+ h6:hover {
+    background-color: rgb(250, 246, 241);
+
+  }
+  .s1:hover {
+    background-color: rgb(244, 64, 64);
+  }
+
+  .s2:hover {
+    background-color: rgb(6, 7, 7);
+  }
+  .s3:hover {
+    background-color: rgb(175, 18, 227);
+  }
+  .s4:hover {
+    background-color: rgb(121, 244, 64);
+  }
+
+/**************  pricing start ***********/
+
+  /* .pricing{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    position: relative;
+  }
+  
+  .pricing:before{
+    content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background:  linear-gradient(160deg, #16c9f6 55%,  #fff 0%) ;
+  }
+  
+  .money{
+    font-size: 40px;
+      line-height: 1;
+      color: #606060;
+  }
+   */
+  .card{
+    transition: 0.4s ease;
+    /*border-radius: 20%!important;*/
+  }
+  
+  .card-header{
+    font-size: 1.6rem;
+    font-weight: bold;
+    background: rgb(159, 88, 246)!important;
+    padding: 25px 0!important;
+  }
+  
+  .card-body{
+    padding: 30px 0!important;
+    color: rgb(16, 16, 16);
+    text-align: center; 
+  }
+  
+  .card-body li{
+    margin: 15px 0;
+    font-weight: 400;
+      font-size: 15px;
+      line-height: 1.6;
+      color: #606060;
+  }
+  
+  .card-footer{
+    background: rgb(246, 241, 241)!important;
+    padding: 30px 0px!important;
+  }
+  
+  .card-footer a{
+    border: 1px solid #50d1c0;
+      border-radius: 100px;
+      color: #50d1c0;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 13px 30px;
+      background: transparent;
+      text-decoration: none;
+  }
+  
+  
+  .card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(241, 175, 175, 0.1);
+  }
+  
+  .card:hover .card-header, .card:hover .money{
+    color: #50d1c0;
+  }
+  
+  .card:hover a{
+    background: #0c0c0c;
+    color: rgb(240, 204, 204);
+    box-shadow: 0 0 20px 0 rgba(233, 151, 151, 0.3);
+  }
+  
+  .card-second{
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(210, 132, 132, 0.2);
+  }
+
+  /**************** pricing end ************/
+
+   .certificate {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.certificate img {
+    width: 40%;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+} 
+
+/**************** happy clients starts ************/
+
+.happyclients{
+	width: 100%;
+	height: 100vh;
+	padding: 80px 0;
+}
+
+.box{
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    transition: 0.3s ease;
+}
+
+.box:hover{
+	background:  #16c9f6;
+}
+
+.box:hover .box a:after{
+	background: white!important;
+}
+
+.box:hover p{
+	color: white;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -60px!important;
+   }
+
+.carousel-indicators li{
+	background-color: #16c9f6!important;
+}
+
+.box a {
+	position: relative;
+}
+
+.box a img{
+	width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.box a:after{
+	content: "\f10d";
+	font-family: FontAwesome;
+	width: 40px;
+	height: 40px;
+	background:linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+	color: white;
+	position: absolute;
+	top: 120%;
+	left: 70%;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box h1{
+	font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.box h2{
+	font-size: 13px;
+	font-weight: 400;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+
+
+/**************** happy clients ends ************/
+
+/************** header extra three div css start ***********/
+
+.header-extradiv{
+	width: auto;
+	height: auto;
+	
+	 margin:10px 0; 
+	
+}
+
+.extradiv{
+	background-color: #0b0b0b;
+    border: medium none;
+    padding: 2px!important;
+     border-radius: 1px; 
+    transition: 0.3s ease;
+    
+    }
+   
+
+.extradiv:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-20px);
+}
+
+i{ color: #2fccd0; }
+
+
+/************** header extra three div css end ***********/
+
+
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  height: 15vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+/* 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+ 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+
